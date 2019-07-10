@@ -236,7 +236,7 @@ maxd_dist_ob=maxd_import['Maxd Object']['maxd_dist_ob']
 
 matrix_sim_us=pd.read_csv('./Datos/MatrizSimUser.csv',index_col=0)
 
-with open('./Datos/Pesos30Us.csv', 'r') as f:
+with open('./Datos/Pesos30MLUsOb.csv', 'r') as f:
         reader = csv.reader(f)
         pesos = list(reader)
 p_user=float(pesos[0][0])
